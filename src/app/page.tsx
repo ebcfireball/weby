@@ -128,7 +128,7 @@ function FirstGlance(){
         width={340}
         height={340}
         alt="logo"
-        className="rounded-lg shadow-lg shadow-cyan-700 bg-slate-900 mx-auto"
+        className="rounded-lg shadow-lg shadow-sky-700 bg-slate-900 mx-auto"
       />
       <div className="mx-auto">
         <p className="mb-5 text-xl font-bold">Jeb Real Estate and Property Management Team</p>
@@ -167,6 +167,8 @@ function Navbar(){
         <ul className="menu menu-horizontal px-1">
           <li><a>Team</a></li>
           <li><a>Contact</a></li>
+          <li><a href="">Prop Mgmt</a></li>
+          <li><a href="">Real Estate</a></li>
         </ul>
       </div>
     </div>
