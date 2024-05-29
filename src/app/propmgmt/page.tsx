@@ -11,7 +11,7 @@ export default function Property(){
 
 function Prop(){
     return (
-        <div className="flex flex-col h-fit md:flex-row">
+        <div className="flex flex-col h-screen md:flex-row">
             <Long />
             <Short />
         </div>
@@ -20,7 +20,7 @@ function Prop(){
 
 function Long(){
     return (
-        <div className="mx-auto my-10 w-5/6 flex flex-col md:p-6 md:shadow-lg md:shadow-cyan-600 md:rounded-lg md:w-2/5 md:my-4 md:bg-slate-700">
+        <div className="mx-auto my-10 w-5/6 flex flex-col md:p-6 md:shadow-lg md:shadow-cyan-600 md:rounded-lg md:w-2/5 md:my-4 md:bg-slate-700 md:h-fit">
             <p className="font-bold text-lg text-center mb-5">Long Team Rentals</p>
             <ul>
                 <li className="p-2 text-md text-center"><span className="font-semibold text-lg block mb-4 text-center text-slate-400">Tenant Screening and Placement </span> We handle tenant applications, background checks, and lease agreements. We find reliable, responsible tenants who will stay for an extended period.</li>
@@ -36,7 +36,7 @@ function Long(){
 
 function Short(){
     return (
-        <div className="mx-auto  w-5/6 flex flex-col md:my-4 md:p-6 md:shadow-lg md:shadow-cyan-600 md:rounded-lg md:w-2/5 md:bg-slate-700">
+        <div className="mx-auto  w-5/6 flex flex-col md:my-4 md:p-6 md:shadow-lg md:shadow-cyan-600 md:rounded-lg md:w-2/5 md:bg-slate-700 md:h-fit">
             <p className="font-bold text-lg text-center mb-5">Short Team Rentals</p>
             <ul>
                 <li className="p-2 text-md text-center"><span className="font-semibold text-lg block mb-4 text-center text-slate-400">Listing Optimization </span> We create appealing listings with high-quality photos, engaging descriptions, and competitive pricing. We attract guests and maximize occupancy.</li>
