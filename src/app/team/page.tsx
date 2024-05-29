@@ -24,7 +24,7 @@ function Person({person,bio,pic}:{person:string, bio:string, pic:string}){
                 width={300}
                 height={200}
                 alt={person}
-                className="place-self-center rounded-lg mb-5 shadow-md shadow-white md:w-3/4"
+                className="place-self-center rounded-lg mb-5 shadow-md shadow-white md:w-3/5"
             />
             <p className="font-semibold text-lg place-self-center mb-6">{person}</p>
             <p>{bio}</p>

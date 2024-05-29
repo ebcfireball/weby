@@ -13,7 +13,7 @@ export default function Navbar(){
               <li><Link href="/realestate">Real Estate</Link></li>
               <li><Link href="/propmgmt">Prop Mgmt</Link></li>
               <li><Link href="/team">Team</Link></li>
-              <li><Link href="/contacLink">Contact</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
           <Link href="/" className="btn btn-ghost text-xl hover:shadow-lg hover:shadow-cyan-500">
