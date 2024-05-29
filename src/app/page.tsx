@@ -117,7 +117,7 @@ function RealPropCards(){
       </div>
       <div className="flex flex-col w-full bg-slate-900 rounded-md my-10 p-6 md:my-0 md:rounded-lg md:w-1/3 mx-auto">
         <p className="text-lg font-semibold">Property Management</p>
-        <p className="font-medium mt-5">We put high quality tenants in to keep money flowing into your pockets, stress free.</p>
+        <p className="font-medium mt-5">We put high quality tenants in your properties to keep money flowing into your pockets, stress free.</p>
         <button className="rounded-full bg-cyan-500 mt-4 text-gray-100 p-2 font-semibold md:w-1/3 place-self-center hover:bg-cyan-900 hover:text-white hover:animate-pulse"><Link href="/propmgmt">Learn More</Link></button>
       </div>
     </div>
