@@ -11,7 +11,7 @@ export default function Property(){
 
 function Prop(){
     return (
-        <div className="flex flex-col h-screen md:flex-row">
+        <div className="flex flex-col h-fit md:flex-row">
             <Long />
             <Short />
         </div>

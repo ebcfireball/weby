@@ -110,15 +110,15 @@ function WhyChoose(){
 function RealPropCards(){
   return (
     <div className="flex flex-col w-4/5 mx-auto md:flex-row md:mb-48">
-      <div className="flex flex-col w-full bg-slate-900 rounded-md p-6  md:rounded-lg md:w-1/3 mx-auto">
+      <div className="flex flex-col w-full bg-slate-900 rounded-md p-8  md:rounded-lg md:w-1/3 mx-auto">
         <p className="text-lg font-semibold">Real Estate</p>
         <p className="font-medium mt-5">We help individuals find their perfect home, and investment properties.</p>
-        <button className="rounded-full bg-cyan-500 mt-4 text-gray-100 p-2 font-semibold md:w-1/3 place-self-center hover:bg-cyan-900 hover:text-white hover:animate-pulse"><Link href="/realestate">Learn More</Link></button>
+        <button className="rounded-full  bg-cyan-500 mt-4 text-gray-100 p-2 font-semibold md:w-1/2 place-self-center hover:bg-cyan-900 hover:text-white hover:animate-pulse"><Link href="/realestate">Learn More</Link></button>
       </div>
       <div className="flex flex-col w-full bg-slate-900 rounded-md my-10 p-6 md:my-0 md:rounded-lg md:w-1/3 mx-auto">
         <p className="text-lg font-semibold">Property Management</p>
         <p className="font-medium mt-5">We put high quality tenants in your properties to keep money flowing into your pockets, stress free.</p>
-        <button className="rounded-full bg-cyan-500 mt-4 text-gray-100 p-2 font-semibold md:w-1/3 place-self-center hover:bg-cyan-900 hover:text-white hover:animate-pulse"><Link href="/propmgmt">Learn More</Link></button>
+        <button className="rounded-full bg-cyan-500 mt-4 text-gray-100 p-2 font-semibold md:w-1/2 place-self-center hover:bg-cyan-900 hover:text-white hover:animate-pulse"><Link href="/propmgmt">Learn More</Link></button>
       </div>
     </div>
   );
